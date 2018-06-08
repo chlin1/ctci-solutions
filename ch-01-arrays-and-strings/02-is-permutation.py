@@ -19,3 +19,6 @@ class Counter(dict):
 if __name__ == "__main__":
   import sys
   print(is_permutation(sys.argv[-2], sys.argv[-1]))
+
+  def is_permutation(str1,str2):
+    return sorted(list(str1))==sorted(list(str2))
